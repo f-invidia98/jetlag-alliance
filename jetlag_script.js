@@ -18,6 +18,7 @@ function landing(){
     $('.hide').toggle("show");
   },1000)
 };
+
 $(document).ready(function(){
-setTimeout(landing,00)
+landing();
 }
