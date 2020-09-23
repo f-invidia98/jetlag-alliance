@@ -13,12 +13,16 @@ $('#hide').toggle("show", function(){
 };
 
 function landing(){
-  $('.alliance').css("left", "0")
+  $('.alliance').css("left", "0");
   setTimeout(function(){
     $('.hide').toggle("show");
-  },1000)
+  },1300)
 };
 
-$(document).ready(function(){
-landing();
-})
+function landing2(){
+  $('body').css("display","block");
+}
+
+setTimeout(landing,300)
+
+setTimeout(landing2,200)
