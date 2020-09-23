@@ -21,4 +21,4 @@ function landing(){
 
 $(document).ready(function(){
 landing();
-}
+})
