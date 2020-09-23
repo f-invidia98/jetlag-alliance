@@ -6,14 +6,7 @@ span{
   font-family: "StudioProTrial-MediumItalic";
 }
 
-.main, .mini{
-  white-space: pre-wrap;
-  font-family: "StudioProTrial-Medium";
-  font-size: 40px;
 
-  padding: 12px;
-  color: white;
-}
 
 @font-face {
   font-family: StudioProTrial-Medium;
@@ -27,14 +20,6 @@ span{
   font-weight: 200;
 }
 
-.main-size{
-  font-size: 40px;
-
-}
-
-.mini-size{
-  font-size: 20px;
-}
 
 a{
   text-decoration: none;
@@ -68,14 +53,14 @@ a:hover{
 
 
 
-@media screen and (min-width: 0px) and (max-width: 375px) {
+
   .main-size, .mini-size{
     font-size: 15px;
 
 
   }
 
-}
+
 
 
   @media screen and (min-width: 375px) and (max-width: 618px) {
@@ -83,6 +68,29 @@ a:hover{
       font-size: 30px;
 
     }
+
+
+}
+
+
+@media screen and (min-width: 618px) {
+  .main, .mini{
+    white-space: pre-wrap;
+    font-family: "StudioProTrial-Medium";
+    font-size: 40px;
+
+    padding: 12px;
+    color: white;
+  }
+
+  .main-size{
+    font-size: 40px;
+
+  }
+
+  .mini-size{
+    font-size: 20px;
+  }
 
 
 }
