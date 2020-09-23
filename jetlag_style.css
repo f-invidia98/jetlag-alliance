@@ -29,11 +29,32 @@ span{
 
 .main-size{
   font-size: 40px;
+
 }
 
 .mini-size{
   font-size: 20px;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.alliance{
+  position: relative;
+  display: inline;
+  left: 76vw;
+  transition: 1s;
+}
+
+
+
+
 
 /* #hide{
   display: none;
