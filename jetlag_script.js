@@ -16,7 +16,7 @@ function landing(){
   $('.alliance').css("left", "0")
   setTimeout(function(){
     $('.hide').toggle("show");
-  },1300)
+  },1000)
 };
 
-setTimeout(landing,200)
+setTimeout(landing,00)
