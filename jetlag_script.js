@@ -20,9 +20,13 @@ function landing(){
 };
 
 function landing2(){
-  $('body').css("display","block");
+
 }
 
 setTimeout(landing,300)
 
-setTimeout(landing2,200)
+$(document).ready(function(){
+    $('body').css("display","block");
+})
+
+// setTimeout(landing2,200)
