@@ -1,14 +1,13 @@
-body{
+body {
   background-color: #dadada;
-    /* display: none; */
+  /* display: none; */
 }
 
-.hide > span{
+.hide>span {
   font-family: "StudioProTrial-MediumItalic";
 }
 
-
-.main, .mini{
+.main, .mini {
   white-space: pre-wrap;
   font-family: "StudioProTrial-Medium";
   padding: 12px;
@@ -27,27 +26,20 @@ body{
   font-weight: 200;
 }
 
-
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.alliance{
+.alliance {
   transition: 1s;
   position: relative;
   display: inline;
-
-
 }
-
-
-
-
 
 /* #hide{
   display: none;
@@ -57,57 +49,37 @@ a:hover{
 .show{
   display: block;
 } */
+.cursor {
+  cursor: pointer;
+}
 
+.cursor:hover {
+  font-style: italic;
+}
 
-
-
-  @media only screen (max-width: 374px) {
-  .main-size, .mini-size{
+@media only screen (min-width: 374px) {
+  .main-size, .mini-size {
     font-size: 15px;
-
-
   }
 }
 
-
-  .cursor{
-    cursor: pointer;
+@media only screen and (min-width: 375px) {
+  .main-size {
+    font-size: 30px;
   }
 
-  .cursor:hover{
-    font-style: italic;
+  .mini-size {
+    font-size: 15px;
   }
-
-
-
-
-  @media only screen and (min-width: 375px) and (max-width: 617px) {
-    .main-size{
-      font-size: 30px;
-
-    }
-
-    .mini-size{
-      font-size: 15px;
-
-    }
-
-
 }
-
 
 @media only screen and (min-width: 618px) {
-
-
-  .main-size{
+  .main-size {
     font-size: 40px;
     line-height: 42px;
-
   }
 
-  .mini-size{
+  .mini-size {
     font-size: 20px;
   }
-
-
 }
