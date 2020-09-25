@@ -3,7 +3,7 @@ body{
   display: none;
 }
 
-span{
+.hide > span{
   font-family: "StudioProTrial-MediumItalic";
 }
 
@@ -11,8 +11,6 @@ span{
 .main, .mini{
   white-space: pre-wrap;
   font-family: "StudioProTrial-Medium";
-
-
   padding: 12px;
   color: white;
 }
@@ -72,10 +70,25 @@ a:hover{
 
 
 
+  .cursor{
+    cursor: pointer;
+  }
+
+  .cursor:hover{
+    font-style: italic;
+  }
+
+
+
 
   @media screen and (min-width: 375px) and (max-width: 618px) {
-    .main-size, .mini-size{
+    .main-size{
       font-size: 30px;
+
+    }
+
+    .mini-size{
+      font-size: 15px;
 
     }
 
@@ -88,6 +101,7 @@ a:hover{
 
   .main-size{
     font-size: 40px;
+    line-height: 42px;
 
   }
 
