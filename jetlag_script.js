@@ -19,14 +19,12 @@ function landing(){
   },1300)
 };
 
-function landing2(){
 
-}
-
+// landing();
 setTimeout(landing,300)
 
-$(document).ready(function(){
-    $('body').css("display","block");
-})
+// $(document).ready(function(){
+//     $('body').css("display","block");
+// })
 
 // setTimeout(landing2,200)

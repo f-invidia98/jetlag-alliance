@@ -1,6 +1,6 @@
 body{
   background-color: #dadada;
-  display: none;
+    /* display: none; */
 }
 
 .hide > span{
@@ -41,7 +41,7 @@ a:hover{
   transition: 1s;
   position: relative;
   display: inline;
-  left: 76vw;
+
 
 }
 
