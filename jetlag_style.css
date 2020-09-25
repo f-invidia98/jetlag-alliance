@@ -61,7 +61,7 @@ a:hover{
 
 
 
-  @media screen (max-width: 374px) {
+  @media only screen (max-width: 374px) {
   .main-size, .mini-size{
     font-size: 15px;
 
@@ -81,7 +81,7 @@ a:hover{
 
 
 
-  @media screen and (min-width: 375px) and (max-width: 617px) {
+  @media only screen and (min-width: 375px) and (max-width: 617px) {
     .main-size{
       font-size: 30px;
 
@@ -96,7 +96,7 @@ a:hover{
 }
 
 
-@media screen and (min-width: 618px) {
+@media only screen and (min-width: 618px) {
 
 
   .main-size{
