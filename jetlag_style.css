@@ -3,7 +3,8 @@ html{
 }
 body {
 
-
+  position: absolute;
+  top: 0;
   background-color: #cccccc;
   height: 100%;
 
@@ -11,8 +12,8 @@ body {
 }
 
 .wrap{
-  position: fixed;
-  overflow-y: scroll;
+
+
 }
 
 .hide>span {
