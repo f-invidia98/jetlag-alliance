@@ -1,7 +1,13 @@
+html{
+  background-color: none;
+}
 body {
-  background-color: #dadada;
+background-color: #cccccc;
+  height: 100vh;
   /* display: none; */
 }
+
+
 
 .hide>span {
   font-family: "StudioProTrial-MediumItalic";
@@ -10,7 +16,7 @@ body {
 .main, .mini {
   white-space: pre-wrap;
   font-family: "StudioProTrial-Medium";
-  padding: 12px;
+  padding-top: 12px;
   color: white;
 }
 
@@ -39,6 +45,11 @@ a:hover {
   transition: 1s;
   position: relative;
   display: inline;
+  margin-left: -40px;
+}
+
+#hide{
+  text-indent: -40px;
 }
 
 /* #hide{
@@ -53,33 +64,101 @@ a:hover {
   cursor: pointer;
 }
 
-.cursor:hover {
+.cursor:hover .italic_hover {
   font-style: italic;
 }
 
-@media only screen and (max-width: 375px) {
+.italic_hover:hover {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 430px) {
   .main-size, .mini-size {
     font-size: 15px;
   }
+
+
+
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 430px) {
   .main-size {
-    font-size: 30px;
+    font-size: 16px;
+    line-height: 18px;
   }
 
   .mini-size {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 18px;
   }
+
+  body{
+    overflow-y: scroll;
+}
+
+.main, .mini {
+  padding-left: 15px;
+}
+
+
+
+
+
 }
 
 @media only screen and (min-width: 618px) {
+  /* .main-size {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .mini-size {
+    font-size: 16px;
+    line-height: 18px;
+  } */
+
+  .wrap{
+    width: 100vw;
+  }
+
+  body{
+    overflow-y:hidden;
+}
+
+.main, .mini {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.alliance{
+  margin-left: 0px;
+}
+
+#hide{
+  text-indent: 0px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1220px) {
+  .wrap{
+    width: 52.5vw;
+  }
+
+
   .main-size {
-    font-size: 40px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 22px;
   }
 
   .mini-size {
     font-size: 20px;
+    line-height: 22px;
   }
+
+
+
 }
