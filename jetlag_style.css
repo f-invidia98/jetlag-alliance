@@ -2,6 +2,8 @@ html{
   background-color: none;
 }
 body {
+  position: fixed;
+  
 background-color: #cccccc;
   height: 100%;
   /* display: none; */
