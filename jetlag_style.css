@@ -2,15 +2,18 @@ html{
   background-color: none;
 }
 body {
-  position: fixed;
+
 
   background-color: #cccccc;
   height: 100%;
-  overflow-y:scroll;
+
   /* display: none; */
 }
 
-
+.wrap{
+  position: fixed;
+  overflow-y: scroll;
+}
 
 .hide>span {
   font-family: "StudioProTrial-MediumItalic";
