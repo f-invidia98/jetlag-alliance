@@ -3,9 +3,10 @@ html{
 }
 body {
   position: fixed;
-  
-background-color: #cccccc;
+
+  background-color: #cccccc;
   height: 100%;
+  overflow-y:scroll;
   /* display: none; */
 }
 
