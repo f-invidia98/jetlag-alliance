@@ -3,7 +3,7 @@ html{
 }
 body {
 background-color: #cccccc;
-  height: 100vh;
+  height: 100%;
   /* display: none; */
 }
 
@@ -16,8 +16,11 @@ background-color: #cccccc;
 .main, .mini {
   white-space: pre-wrap;
   font-family: "StudioProTrial-Medium";
-  padding-top: 12px;
   color: white;
+}
+
+.main{
+    padding-top: 12px;
 }
 
 @font-face {
