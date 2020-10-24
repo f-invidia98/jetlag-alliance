@@ -76,7 +76,10 @@ a:hover {
   .main-size, .mini-size {
     font-size: 15px;
   }
-
+  .main, .mini {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
 
 
 }
@@ -97,7 +100,8 @@ a:hover {
 }
 
 .main, .mini {
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 
