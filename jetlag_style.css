@@ -7,9 +7,20 @@ body {
 
   background-color: #cccccc;
   height: 100%;
-
+  cursor: default; 
   /* display: none; */
 }
+
+.weather{
+  position: absolute;
+  bottom: 20px;
+}
+
+.weather span{
+  font-family: "StudioProTrial-Medium";
+}
+
+
 
 .wrap{
   position: absolute;
@@ -19,6 +30,7 @@ body {
 .hide>span {
   font-family: "StudioProTrial-MediumItalic";
 }
+
 
 .main, .mini {
   white-space: pre-wrap;
