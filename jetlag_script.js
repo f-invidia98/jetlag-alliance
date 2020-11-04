@@ -79,7 +79,7 @@ request2.onload = function(){
 }
 request2.send();
 
-link3 = "https://api.openweathermap.org/data/2.5/weather?q=Venice,it&units=metric&apikey=d0bb35573b9aded09cc4b09e9cbb85a6";
+link3 = "https://api.openweathermap.org/data/2.5/weather?q=Venice,it&units=metric&apikey=d0bb25573b9aded09cc4b09e9cbb85a6";
 var request3 = new XMLHttpRequest();
 request3.open('GET',link3,true);
 request3.onload = function(){
