@@ -29,7 +29,7 @@ setTimeout(landing,300)
 
 // setTimeout(landing2,200)
 
-link = "https://api.openweathermap.org/data/2.5/weather?q=Monza,it&units=metric&apikey=d0bb25573b9aded09cc4b09e9cbb85a6";
+link = "https://api.openweathermap.org/data/2.5/weather?q=Milan,it&units=metric&apikey=d0bb25573b9aded09cc4b09e9cbb85a6";
 var request = new XMLHttpRequest();
 request.open('GET',link,true);
 request.onload = function(){
